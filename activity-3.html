@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	//one way
+		// var shirt_cost = 3.5;
+		// var tax_rate = 0.1;
+		// var quant_shirts_to_buy = prompt('How many shirts do you want to buy?');
+
+		// quant_shirts_to_buy = parseInt(quant_shirts_to_buy);
+
+		// var cost_pre_tax = quant_shirts_to_buy * shirt_cost;
+		// var cost_post_tax = cost_pre_tax + cost_pre_tax*tax_rate;
+
+		// document.write('you owe this much ' + '$' + cost_post_tax);
+
+	//another way
+		// var shirt_cost = 3.5;
+		// var tax_rate = 0.1;
+		// var quant_shirts_to_buy = parseInt(prompt('How many shirts do you want to buy?'));
+
+		// var cost_pre_tax = quant_shirts_to_buy * shirt_cost;
+		// var cost_post_tax = cost_pre_tax + cost_pre_tax*tax_rate;
+
+		// document.write('you owe this much ' + '$' + cost_post_tax);
+
+	//rebel way
+		var shirt_cost = 3.5;
+		var tax_rate = 1.1;
+		var quant_shirts_to_buy = parseInt(prompt('How many shirts do you want to buy?'));
+
+		var cost_pre_tax = quant_shirts_to_buy * shirt_cost;
+		var cost_post_tax = cost_pre_tax*tax_rate;
+
+		document.write('you owe this much ' + '$' + cost_post_tax);
+
+
+</script>
+</body>
+</html>
